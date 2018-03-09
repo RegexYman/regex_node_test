@@ -7,6 +7,7 @@ router.get('/', function(req, res, next) {
   var b = req.headers.b;
   var c = req.headers.c;
   var ans = a+b*c;
+  var vvccc;
   var jsonOBJ = {
     value1: a,
     value2: b,
